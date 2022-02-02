@@ -70,7 +70,6 @@ function Row(props) {
 }
 
 export default function LocationTable({ rows, charactersMap }) {
-  console.log("Testttt ", charactersMap);
   return (
     <TableContainer component={Paper}>
       <Table aria-label="collapsible table">
